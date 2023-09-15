@@ -12,7 +12,7 @@ This project analyzes data related to food items sold at various stores. The ins
 
 ![Correlation_Heatmap_week3](https://github.com/IndiaTJohnson/Prediction-of-Product-Sales/assets/12077809/547dba95-13c7-4bee-8fdc-b4ca9d22ec3d)
 
-###**ML Model**
+# **ML Model**
 
 In this project, we are currently using a tuned Random Forest Regression model. Overall I recommend the tuned random forest model. Of the parameters I tested, these gave me the best results: {'randomforestregressor__max_depth': None, 'randomforestregressor__max_features': 'sqrt', 'randomforestregressor__min_samples_leaf': 3, 'randomforestregressor__n_estimators': 200, 'randomforestregressor__oob_score': True}
 
